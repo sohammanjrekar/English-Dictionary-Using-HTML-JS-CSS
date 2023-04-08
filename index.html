@@ -8,7 +8,7 @@
   <meta name="keywords" content="HTML CSS JS Dictionary" />
   <meta name="description" content="Simple English Dictionary using HTML CSS JS and Dictionary API." />
   <meta name="author" content="Soham Manjrekar" />
-  <title>Password Generator</title>
+  <title>English Dictionary</title>
   <link rel="icon" type="image/x-icon" href="/images/logo.png">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -79,10 +79,10 @@
           </a>
           <h1>
             Discovering <br>
-            Password Generator
+            English Dictionary
           </h1>
           <p>
-            Simple Password Generator using HTML CSS JS.
+            Simple English Dictionary using HTML CSS JS.
           </p>
           <div>
             <a href="contact.html" class="slider-link">
@@ -94,13 +94,13 @@
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/project/pass1.jpg" alt="" style="height:70vh;">
+                <img src="images/project/dict1.jpg" alt="" style="height:70vh;">
               </div>
               <div class="carousel-item">
-                <img src="images/project/pass2.jpg" alt="" style="height:70vh;">
+                <img src="images/project/dict2.jpg" alt="" style="height:70vh;">
               </div>
               <div class="carousel-item">
-                <img src="images/project/pass3.jpg" alt="" style="height:70vh;">
+                <img src="images/project/dict3.jpg" alt="" style="height:70vh;">
               </div>
             </div>
 
@@ -112,37 +112,16 @@
   </div>
 
   <section class="about_section layout_padding">
-    <h1 class="text-center">Password Generator</h1>
+    <h1 class="text-center">English Dictionary</h1>
     <div class="container container1">
-      <div class="result-container">
-        <span id="result"></span>
-        <button class="btn" id="clipboard" style="width:10vw;">
-          Copy
-        </button>
+      <input placeholder="Search a word" type="text" class="input" id="input" />
+      <p class="info-text" id="info-text">Type a word and press enter</p>
+      <div class="meaning-container" id="meaning-container">
+        <p>Word Title: <span class="title" id="title">___</span></p>
+        <p>Meaning: <span class="meaning" id="meaning">___</span></p>
+        <audio src="" controls id="audio"></audio>
       </div>
-      <div class="settings">
-        <div class="setting">
-          <label for="length">Password Length</label>
-          <input type="number" name="length" id="length" min="4" max="20" value="20" />
-        </div>
-        <div class="setting">
-          <label for="uppercase">Include uppercase letters</label>
-          <input type="checkbox" name="uppercase" id="uppercase" checked />
-        </div>
-        <div class="setting">
-          <label for="lowercase">Include lowercase letters</label>
-          <input type="checkbox" name="lowercase" id="lowercase" checked />
-        </div>
-        <div class="setting">
-          <label for="numbers">Include numbers</label>
-          <input type="checkbox" name="numbers" id="numbers" checked />
-        </div>
-        <div class="setting">
-          <label for="symbols">Include symbols</label>
-          <input type="checkbox" name="symbols" id="symbols" checked />
-        </div>
-      </div>
-      <button class="btn btn-large" id="generate">Generate Password</button>
+
     </div>
   </section>
   <section class="about_section layout_padding">
@@ -155,14 +134,12 @@
             </h6>
             <div class="custom_heading-container">
               <h2>
-                Password Generator
+                English Dictionary
               </h2>
               <hr>
             </div>
             <p>
-              A simple, secure & clean way to generate random passcodes and passwords 🔑.Using uppercase and lowercase
-              letters, numbers, symbols(sign), you can create your own password with any number of characters you want.
-            </p>
+              This is a simple english dictionary where you can check the meaning of words</p>
             <div>
 
             </div>
